@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #181719;
+}
+
+.navegacao {
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navegacao__logo {
+  width: 102px;
+  height: 32px;
+  border: 1px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.navegacao__logo--titulo {
+  font-family: "Crimson Pro", serif;
+  font-weight: 200;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.navegacao__menu {
+  width: 40vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.navegacao__menu--item {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navegacao__menu--item:hover {
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.section {
+  width: 100%;
+  min-height: 80vh;
+  background-color: #181719;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container__info {
+  width: 30vw;
+  color: #ffffff;
+}
+
+.container__info--titulo {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 61px;
+
+  color: #ffffff;
+}
+
+.container__galeria {
+  width: 50vw;
+}
+
+.container__galeria--imagem {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #181719;
+}
+
+.footer__text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  text-align: center;
+  color: #a9a9a9;
+}
+
+.footer__link {
+  font-weight: 700;
+}
